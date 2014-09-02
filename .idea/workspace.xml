@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b37f2ff-f67c-4d42-9d50-e9961069d360" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Kodya_Ashley_WPF.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Setup Github/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup Github/index.html" afterPath="$PROJECT_DIR$/Setup Github/index.html" />
     </list>
     <ignored path="Kodya_Ashley_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Setup Github/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18099548" vertical-offset="0" max-vertical-offset="663">
-              <caret line="8" column="0" selection-start-line="6" selection-start-column="6" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.09049774" vertical-offset="0" max-vertical-offset="663">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -219,8 +213,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Setup Github/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18099548" vertical-offset="0" max-vertical-offset="663">
-          <caret line="8" column="0" selection-start-line="6" selection-start-column="6" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.09049774" vertical-offset="0" max-vertical-offset="663">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
