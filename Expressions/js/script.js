@@ -1,15 +1,6 @@
-/**
- * Created by electrikoala on 9/10/14.
- */
-//expressions - PEMDAS
+//using arrays in expressions
 
-var quiz1 = 87;
-var quiz2 = 100;
-var quiz3 = 60;
-var quiz4 = 80;
+var orangeBins = [234, 567, 883];
 
-//the average is the sum of the items divided by the number of the items
-
-var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
-//console.log(average);
-
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+consolge.log(total);

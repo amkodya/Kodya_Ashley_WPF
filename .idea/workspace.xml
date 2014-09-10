@@ -42,11 +42,9 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2838428" vertical-offset="0" max-vertical-offset="687">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#46#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.1091703" vertical-offset="0" max-vertical-offset="687">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,8 +73,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="178" />
+    <option name="x" value="21" />
+    <option name="y" value="552" />
     <option name="width" value="1400" />
     <option name="height" value="784" />
   </component>
@@ -170,6 +168,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Expressions/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,8 +177,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.script.js">
-    <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Expressions/js">
-      <browser start="true" />
+    <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$PROJECT_DIR$/Expressions/index.html" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Expressions/js">
+      <browser name="e5120d43-2c3f-47ef-9f26-65e539e05186" start="true" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -247,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="178" width="1400" height="784" extended-state="0" />
+    <frame x="21" y="552" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,11 +437,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2838428" vertical-offset="0" max-vertical-offset="687">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.1091703" vertical-offset="0" max-vertical-offset="687">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
