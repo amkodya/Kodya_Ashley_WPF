@@ -1,17 +1,8 @@
-/**
- * Created by electrikoala on 9/9/14.
- */
+//Arays
 
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"] //0,1,2,3
 
-var yearBorn = 1955;
-/*
-console.log(yearBorn);
-console.log(Hello World);
- */
-alert("Hello World");
+var num = 1;
 
-var age; //declaration
-age = 38 //definition
-//storage container
-
-var yearofbirth = 1970 //defining and declaring on the same line
+console.log(muppetNames[0]); //lets me see whats index 1
+muppetNames[1] = "Rizzo" //changes index 1 to Rizzo
