@@ -9,3 +9,9 @@ console.log(yearBorn);
 console.log(Hello World);
  */
 alert("Hello World");
+
+var age; //declaration
+age = 38 //definition
+//storage container
+
+var yearofbirth = 1970 //defining and declaring on the same line
