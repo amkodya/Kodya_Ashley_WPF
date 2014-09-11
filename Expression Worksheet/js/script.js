@@ -1,6 +1,8 @@
 //Expression Worksheet
 
-var a = 1; //dog age
+var slicesPizza = 50;
+var partyPeople = 15;
+var pizzasOrdered = 12;
 
-a = a * 7;
-console.log(a);
+personalSlices = 50 / 15;
+console.log(personalSlices);
