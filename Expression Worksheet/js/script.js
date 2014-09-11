@@ -1,8 +1,7 @@
 //Expression Worksheet
 
-var slicesPizza = 8;
-var partyPeople = 15;
-var pizzasOrdered = 4;
+var groceryShopping = [50, 34, 356, 245, 30];
 
-sparkyPizza = (pizzasOrdered * slicesPizza) / partyPeople;
-console.log(sparkyPizza);
+var total = (groceryShopping[0] + groceryShopping[1] + groceryShopping[2] + groceryShopping[3] + groceryShopping[4]) / 4;
+
+console.log(total);
