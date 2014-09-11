@@ -1,7 +1,14 @@
 //Expression Worksheet
 
-var groceryShopping = [50, 34, 356, 245, 30];
+var origPrice = 350;
+var disCount = 40;
+var salesTax = 4.5;
 
-var total = (groceryShopping[0] + groceryShopping[1] + groceryShopping[2] + groceryShopping[3] + groceryShopping[4]) / 4;
+priceSubtracted = origPrice * (disCount / 100);
+priceNotax = origPrice - priceSubtracted;
+taxPercent = salesTax / 100;
+taxAmount = (taxPercent * priceNotax);
+priceTax = taxAmount + priceNotax;
 
-console.log(total);
+console.log(priceNotax);
+console.log(priceTax);
