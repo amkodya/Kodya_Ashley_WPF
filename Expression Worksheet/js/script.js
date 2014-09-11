@@ -1,8 +1,8 @@
 //Expression Worksheet
 
-var slicesPizza = 50;
+var slicesPizza = 8;
 var partyPeople = 15;
-var pizzasOrdered = 12;
+var pizzasOrdered = 4;
 
-personalSlices = 50 / 15;
-console.log(personalSlices);
+sparkyPizza = (pizzasOrdered * slicesPizza) / partyPeople;
+console.log(sparkyPizza);
