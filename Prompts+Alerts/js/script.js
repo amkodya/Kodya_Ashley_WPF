@@ -5,4 +5,6 @@ var height = prompt("Please enter the Height");
 
 var area = width * height;
 
-console.log(area); //prints it out to the console
+// console.log(area); //prints it out to the console
+
+alert("the area of your rectangle is " + area);
