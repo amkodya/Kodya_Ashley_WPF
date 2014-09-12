@@ -9,8 +9,8 @@ var webPages = prompt("How many web pages do you have?");
 var clipArt = prompt("How many clip art images do you have?");
 var fontFace = prompt("How many font faces do you have?");
 
-var clipperPage = webPages / clipArt;
-var fontperPage = webPages / fontFace;
+var clipperPage = clipArt / webPages ;
+var fontperPage = fontFace / webPages ;
 
 console.log(clipperPage); //prints it out to the console
 console.log(fontperPage);
