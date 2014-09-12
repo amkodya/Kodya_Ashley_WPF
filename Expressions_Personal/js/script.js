@@ -15,3 +15,9 @@ var incheS36 = hoopS36 * 36; ///calculating number of inches needed for 36" hoop
 
 var totalInches = incheS32 + incheS34 + incheS36; // total number of inches for all hoops
 var totalYards = totalInches / 36; // number of yards needed to purchase to complete orders
+
+
+console.log(totalYards); //prints it out to the console
+
+
+alert("You should be purchase" + totalYards + "of HDPE pipe to complete hoop orders."); //result prompt
