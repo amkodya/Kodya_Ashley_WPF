@@ -9,4 +9,9 @@
 // of clowns into each clown car for show. The average needs to be found out
 // how many clowns should be in each clown car.
 
+var clownS = prompt("How many clowns competing?"); // how many clowns?
+var clownPosses = prompt("How many clown posse's?"); //number of clown posse's
+var clownCars = prompt("How many clown cars?"); // number of clown cars
+
+
 
