@@ -13,8 +13,5 @@ var incheS32 = hoopS32 * 32; //calculating number of inches needed for 32" hoops
 var incheS34 = hoopS34 * 34; //calculating number of inches needed for 34" hoops
 var incheS36 = hoopS36 * 36; ///calculating number of inches needed for 36" hoops
 
-console.log(clipperPage); //prints it out to the console
-console.log(fontperPage); //ptints it out to console
-
-alert("You should be using" + clipperPage + "clip art images per web page."); //result prompt
-alert("You should be using" + fontperPage + "font faces per web page."); //result promopt
+var totalInches = incheS32 + incheS34 + incheS36; // total number of inches for all hoops
+var totalYards = totalInches / 36; // number of yards needed to purchase to complete orders
