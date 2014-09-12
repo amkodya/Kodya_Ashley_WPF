@@ -13,5 +13,7 @@ var clownS = prompt("How many clowns competing?"); // how many clowns?
 var clownPosses = prompt("How many clown posse's?"); //number of clown posse's
 var clownCars = prompt("How many clown cars?"); // number of clown cars
 
+var clownNoses = clownS * 1; //calculating number of clown noses needed to purchase
+var jugglingPins = clownS * 3 ; //calculating number of juggling pins needed
 
 
