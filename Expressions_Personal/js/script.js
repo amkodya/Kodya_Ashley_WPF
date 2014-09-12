@@ -9,8 +9,9 @@ var hoopS32 = prompt("How many 32 inch hoops were ordered?"); // how many hoops 
 var hoopS34 = prompt("How many 34 inch hoops were ordered?"); // how many hoops 34"
 var hoopS36 = prompt("How many 36 inch hoops were ordered?"); // how many hoops 36"
 
-var clipperPage = clipArt % webPages ; //calculating number of clip art images to be used per page modulo
-var fontperPage = fontFace % webPages ; //calculating number of font's per page modulo
+var incheS32 = hoopS32 * 32; //calculating number of inches needed for 32" hoops
+var incheS34 = hoopS34 * 34; //calculating number of inches needed for 34" hoops
+var incheS36 = hoopS36 * 36; ///calculating number of inches needed for 36" hoops
 
 console.log(clipperPage); //prints it out to the console
 console.log(fontperPage); //ptints it out to console
