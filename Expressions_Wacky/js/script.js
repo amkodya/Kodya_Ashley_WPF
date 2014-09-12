@@ -17,3 +17,8 @@ var clownNoses = clownS * 1; //calculating number of clown noses needed to purch
 var jugglingPins = clownS * 3 ; //calculating number of juggling pins needed
 
 
+console.log(clownNoses); //prints it out to the console
+console.log(jugglingPins); //ptints it out to console
+
+alert(clownNoses + "Clown noses should be purchased"); //result prompt
+alert(jugglingPins + "Juggling Pins should be purchased"); //result prompt
