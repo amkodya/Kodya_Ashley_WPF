@@ -20,4 +20,4 @@ var totalYards = totalInches / 36; // number of yards needed to purchase to comp
 console.log(totalYards); //prints it out to the console
 
 
-alert("You should be purchase" + totalYards + "of HDPE pipe to complete hoop orders."); //result prompt
+alert("You should be purchase " + totalYards + " yards of HDPE pipe to complete hoop orders."); //result prompt
