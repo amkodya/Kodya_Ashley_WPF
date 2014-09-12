@@ -15,6 +15,6 @@ var fontperPage = fontFace % webPages ; //calculating number of font's per page 
 console.log(clipperPage); //prints it out to the console
 console.log(fontperPage); //ptints it out to console
 
-alert("You should be using" + clipperPage + "clip art images per web page."); //result prompt
-alert("You should be using" + fontperPage + "font faces per web page."); //result promopt
+alert("You should be using " + clipperPage + " clip art images per web page."); //result prompt
+alert("You should be using " + fontperPage + " font faces per web page."); //result promopt
 
