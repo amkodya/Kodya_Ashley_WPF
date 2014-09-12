@@ -12,4 +12,9 @@ var fontFace = prompt("How many font faces do you have?");
 var clipperPage = webPages / clipArt;
 var fontperPage = webPages / fontFace;
 
+console.log(clipperPage); //prints it out to the console
+console.log(fontperPage);
+
+alert("You should be using" + clipperPage + "clip art images per web page.");
+alert("You should be using" + fontperPage + "clip art images per web page.");
 
