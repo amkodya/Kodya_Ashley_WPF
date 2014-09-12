@@ -15,7 +15,7 @@ var clownNoses = clownS * 1; //calculating number of clown noses needed to purch
 var jugglingPins = clownS * 3 ; //calculating number of juggling pins needed
 
 console.log(clownNoses); //prints it out to the console
-console.log(jugglingPins); //ptints it out to console
+console.log(jugglingPins); //prints it out to console
 
 alert(clownNoses + "Clown noses should be purchased"); //result prompt
 alert(jugglingPins + "Juggling Pins should be purchased"); //result prompt
@@ -26,4 +26,7 @@ var clownCirc3 = prompt("How many clowns in 3rd circus' car?"); //number of clow
 var clownCirc4 = prompt("How many clowns in 4th circus' car?");//number of clowns in clown circus 4
 var clownCirc5 = prompt("How many clowns in 5th circus' car?");//number of clowns in clown circus 5
 
-var clownCars = []
+var clownCars = [clownCirc1, clownCirc2, clownCirc3, clownCirc4, clownCirc5];
+var total = (clownCars[0] + clownCars[1] + clownCars[2] + clownCars[3] + clownCars[4]) % 5;
+
+alert("There should be" + total + "clowns per clown car");
