@@ -27,6 +27,6 @@ var clownCirc4 = prompt("How many clowns in 4th circus' car?");//number of clown
 var clownCirc5 = prompt("How many clowns in 5th circus' car?");//number of clowns in clown circus 5
 
 var clownCars = [clownCirc1, clownCirc2, clownCirc3, clownCirc4, clownCirc5];
-var total = (clownCars[0] + clownCars[1] + clownCars[2] + clownCars[3] + clownCars[4]) % 5;
+var total = (clownCars[0] + clownCars[1] + clownCars[2] + clownCars[3] + clownCars[4]) / 5;
 
 alert("There should be" + total + "clowns per clown car");
