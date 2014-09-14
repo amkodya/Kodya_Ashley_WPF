@@ -3,14 +3,18 @@
  */
 //CONDITIONAL LOGIC - Ternaries
 
-var gpa = 48;
 
-//if the GPA is over the min 2.0 score, the student can graduate
+var age = 11;
+var book;
 
-/*if(gpa > 2.0){
-   console.log("you can graduate!");
+//if the child is under 1, they get green eggs and ham, other they get the Time Machine
+/*if(age < 10){
+    book = "Green Eggs and Ham";
 }else{
-    console.log("GPA is too low!");
-}*/
+    book = "The Time Machine";
+}
 
-(gpa > 2.0) ? console.log("you can graduate!") : console.log("GPA is too low!");
+console.log(book);*/
+
+book = (age <10) ? "Green Eggs and Ham" : "the Time Machine";
+consolge.log(book);
