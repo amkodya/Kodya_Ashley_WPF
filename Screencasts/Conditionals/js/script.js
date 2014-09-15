@@ -17,4 +17,4 @@ var book;
 console.log(book);*/
 
 book = (age <10) ? "Green Eggs and Ham" : "the Time Machine";
-consolge.log(book);
+console.log(book);
