@@ -1,29 +1,34 @@
 //Conditionals Worksheet
 
-/*Last Chance for Gas!
+/* A student earns a number grade at the conclusion of a course at Full Sail.
+ Determine the appropriate letter grade for that number using conditional statements.
 
-A driver has to determine if they can make it across the desert with their current fuel.
-They are about to past the last gas station for the next 200 miles and they need to determine
-whether they should stop now for gas or not.
+ Assume grades are whole numbers that never go below 0 or above 100.
+ Use the FullSail Grade scale.
+ There should be only one print out to the console.
+ Given:
+ Grade (in percent)
+ Result To Print Out:
+ “You have a X%, which means you have earned a(n) X in the class!” */
 
+var grade = 84;
 
-Given:
-Gas efficiency of the car (in mpg)
-Gauge reading of the gas tank (in %)
-Car’s gas tank capacity (in gallons)
-Result To Print Out:
-    “Yes, you can make it without stopping for gas!”
-    or “You only have X gallons of gas in your tank, better get gas now while you can!”*/
+if(grade >= 90){
 
-var milesPerGal = 30;
-var gaugeReading = 13;
-var tankCap = 15;
+    console.log("You have a "+ grade +"%, which means you have earned an A in the class");
+}else if(grade >= 80){
 
-needGas = ((milesPerGal * tankCap) * (gaugeReading/100) > 200) ? "Yes you can make it without stopping for gas" : "You do not have enough as gas in your tank, better get gas now while you can";
-console.log(needGas);
+    console.log("You have a "+ grade +"%, which means you have earned a B in the class");
 
+}else if(grade >= 70){
+    console.log("You have a "+ grade +"%, which means you have earned a C in the class");
 
+}else if(grade >= 65){
+    console.log("You have a "+ grade +"%, which means you have earned a D in the class");
 
+}else{
+    console.log("You have a " + grade + "%, which means you have earned an F in the class");
 
+}
 
 
