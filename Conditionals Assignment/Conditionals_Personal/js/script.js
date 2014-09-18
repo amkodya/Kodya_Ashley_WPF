@@ -15,16 +15,13 @@ var money=prompt("How much money do you have for the cake and present?");
 
 
 if(money >= (cakeMixPrice+eggs+oil+frosting)*3 && money - ((cakeMixPrice+eggs+oil+frosting)*3) === costPresent ){
-    alert("You can make the 3-layered cake and buy the present!);
-    console.log("You can make the 3-layered cake and buy the present!");
+
+    alert("You can make the 3-layered cake and buy the present!");
 }else if(money >= (cakeMixPrice+eggs+oil+frosting)*2 && money - ((cakeMixPrice+eggs+oil+frosting)*2) === costPresent){
     alert("You can only make a double-layered cake to afford the present!");
-    console.log("You can only make a double-layered cake to afford the present!");
 }else if(money >= cakeMixPrice+eggs+oil+frosting && money - (cakeMixPrice+eggs+oil+frosting) === costPresent){
     alert("You can only make a single-layered cake to afford the present!");
-    console.log("You can only make a single-layered cake to afford the present!");
 }else{
     alert("You have to chose between making the cake and buying the present!");
-    console.log("You have to chose between making the cake and buying the present!");
 }
 
