@@ -9,14 +9,15 @@ website you're designing, you have selected a certain number of stock photos. De
 use the amount of photos you have selected or if you will need to cut some photos out.*/
 
 
-var photosSelected = 10 ;
-var budget = 10 ;
-var pricePhoto = 10 ;
+var photosSelected = prompt("How many stock photo's have you selected?");
+var budget = prompt("What is your stock photo budget per website?");
+var pricePhoto = prompt("What is the price per stock photo?");
 
 if (budget >= photosSelected * pricePhoto){
     console.log("You can use all of the stock photos you've collected for your website!");
+    alert("You can use all of the stock photos you've collected for your website!");
 
 }else{
-    console.log("You need to cut out " + (photosSelected * pricePhoto - budget)/pricePhoto + " photos to stay within your budget");
-
+    console.log("You need to eliminate " + (photosSelected * pricePhoto - budget)/pricePhoto + " photos to stay within your budget");
+    alert("You need to eliminate " + (photosSelected * pricePhoto - budget)/pricePhoto + " photos to stay within your budget");
 }
