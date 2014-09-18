@@ -6,12 +6,12 @@ After purchasing their gift, I only have a certain amount of money to spend on i
 I want to figure out if I can make a 3 layer cake or if not, how many layers of cake I can make
 based on the cost per layer.*/
 
-var cakeMixPrice=10;
-var eggs=3;
-var oil= 5;
-var frosting= 12;
+var cakeMixPrice=15 ;
+var eggs= 5 ;
+var oil= 7 ;
+var frosting= 10 ;
 
-var money=50;
+var money=75;
 
 if(money >= (cakeMixPrice+eggs+oil+frosting)*3){
     console.log("You can make the 3-layered cake!");
