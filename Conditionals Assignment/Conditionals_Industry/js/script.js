@@ -13,11 +13,5 @@ var photosSelected = prompt("How many stock photo's have you selected?");
 var budget = prompt("What is your stock photo budget per website?");
 var pricePhoto = prompt("What is the price per stock photo?");
 
-if (budget >= photosSelected * pricePhoto){
-    console.log("You can use all of the stock photos you've collected for your website!");
-    alert("You can use all of the stock photos you've collected for your website!");
-
-}else{
-    console.log("You need to eliminate " + (photosSelected * pricePhoto - budget)/pricePhoto + " photos to stay within your budget");
+(budget >= photosSelected * pricePhoto) ? alert("You can use all of the stock photos you've collected for your website!") :
     alert("You need to eliminate " + (photosSelected * pricePhoto - budget)/pricePhoto + " photos to stay within your budget");
-}
