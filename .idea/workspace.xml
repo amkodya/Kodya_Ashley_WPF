@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b37f2ff-f67c-4d42-9d50-e9961069d360" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals Assignment/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/Conditionals Assignment/Conditionals_Industry/js/script.js" />
-    </list>
+    <list default="true" id="7b37f2ff-f67c-4d42-9d50-e9961069d360" name="Default" comment="" />
     <ignored path="Kodya_Ashley_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +50,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals Assignment/Conditionals_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69924814" vertical-offset="21" max-vertical-offset="435">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.060150377" vertical-offset="21" max-vertical-offset="435">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -777,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals Assignment/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69924814" vertical-offset="21" max-vertical-offset="435">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.060150377" vertical-offset="21" max-vertical-offset="435">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
