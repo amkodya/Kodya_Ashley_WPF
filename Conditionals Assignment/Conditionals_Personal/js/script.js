@@ -7,19 +7,18 @@ I want to figure out if I can make a 3 layer cake or if not, how many layers of 
 based on the cost per layer.*/
 
 var cakeMixPrice= prompt("How much will the cake mix cost per layer?") ;
-var eggs= prompt("How much will the eggs cost per layer?");
-var oil= prompt("How much will the oil cost per layer?");
-var frosting= prompt("How much will the frosting cost per layer?");
+var eggsPrice= prompt("How much will the eggs cost per layer?");
+var oilPrice = prompt("How much will the oil cost per layer?");
+var frostingPrice= prompt("How much will the frosting cost per layer?");
 var costPresent= prompt("How much will the anniversary present be?");
-var money=prompt("How much money do you have for the cake and present?");
+var moneyAvail=prompt("How much money do you have for the cake and present?");
 
 
-if(money >= (cakeMixPrice+eggs+oil+frosting)*3 && money - ((cakeMixPrice+eggs+oil+frosting)*3) === costPresent ){
-
-    alert("You can make the 3-layered cake and buy the present!");
-}else if(money >= (cakeMixPrice+eggs+oil+frosting)*2 && money - ((cakeMixPrice+eggs+oil+frosting)*2) === costPresent){
+if( moneyAvail >= (cakeMixPrice+eggsPrice+oilPrice+frostingPrice) * 3 && moneyAvail - ((cakeMixPrice+eggsPrice+oilPrice+frostingPrice)*3)  >= costPresent ){
+   alert("You can make the 3-layered cake and buy the present!");
+}else if( moneyAvail >= (cakeMixPrice+eggsPrice+oilPrice+frostingPrice)* 2 && moneyAvail - ((cakeMixPrice+eggsPrice+oilPrice+frostingPrice)*2) >= costPresent ){
     alert("You can only make a double-layered cake to afford the present!");
-}else if(money >= cakeMixPrice+eggs+oil+frosting && money - (cakeMixPrice+eggs+oil+frosting) === costPresent){
+}else if(moneyAvail >= cakeMixPrice+eggsPrice+oilPrice+frostingPrice && moneyAvail - cakeMixPrice+eggsPrice+oilPrice+frostingPrice  >= costPresent ){
     alert("You can only make a single-layered cake to afford the present!");
 }else{
     alert("You have to chose between making the cake and buying the present!");
