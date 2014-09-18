@@ -1,4 +1,4 @@
-//Conditionals Worksheet
+//Conditionals Personal
 
 /* Movie Ticket Price
  The local movie theater in town has a ticket price of $12.00
