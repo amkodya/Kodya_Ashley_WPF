@@ -9,11 +9,11 @@ website you're designing, you have selected a certain number of stock photos. De
 use the amount of photos you have selected or if you will need to cut some photos out.*/
 
 
-var photosSelected = 240 ;
-var budget = 100 ;
-var pricePhoto = 2.54 ;
+var photosSelected = 469 ;
+var budget = 50 ;
+var pricePhoto = 3.50 ;
 
-if (budget >= photosSelected*pricePhoto){
+if (budget >= photosSelected * pricePhoto){
     console.log("You can use all of the stock photos you've collected for your website!");
 
 }else{
