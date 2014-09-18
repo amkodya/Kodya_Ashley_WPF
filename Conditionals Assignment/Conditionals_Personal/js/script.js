@@ -17,5 +17,7 @@ if(money >= (cakeMixPrice+eggs+oil+frosting)*3){
     console.log("You can make the 3-layered cake!");
 }else if(money >= (cakeMixPrice+eggs+oil+frosting)*2){
     console.log("You can only make a double-layered cake!");
+}else{
+    console.log("You can only make a single-layered cake!");
 }
 
