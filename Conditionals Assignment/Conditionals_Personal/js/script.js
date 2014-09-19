@@ -6,37 +6,31 @@ I only have a certain amount of money to spend on ingredients as I still need to
 I want to figure out if I can make a 3 layer cake or if not, how many layers of cake I can make
 based on the cost per layer.*/
 
-var cakeMixPrice = prompt("How much will the cake mix cost per layer?"); // cost of the cake mix per layer
-var eggsPrice = prompt("How much will the eggs cost per layer?"); //cost of the eggs per layer
-var oilPrice = prompt("How much will the oil cost per layer?"); // cost of the oil per layer
-var frostingPrice = prompt("How much will the frosting cost per layer?"); // cost of the frosting per layer
+var money = prompt("How much money do you have for the cake and present?"); // money available to buy present and cake
+var layerCost = prompt("How much will the cake mix cost per layer?"); // cost of the cake mix per layer
 var costPresent = prompt("How much will the anniversary present be?"); // cost of the anniversary present
-var moneyAvail = prompt("How much money do you have for the cake and present?"); // money available to buy present and cake
-
-// total cost of each layer (cakeMixPrice + eggsPrice + oilPrice + frostingPrice)
 
 
-/* If the cost of 3 layers of cake is less than or equal too the money left over after buying the present
-I can make a 3 layer cake. If the cost of 2 layers of cake is less than or equal too the money left over after buying the present
+/*  money left over after present purchased moneyAvail - costPresent
+ If the cost of 3 layers of cake is less than or equal too the money left over after buying the present
+ I can make a 3 layer cake. If the cost of 2 layers of cake is less than or equal too the money left over after buying the present
  I can make a 2 layer cake. If the cost of 1 layer of cake is less than or equal too the money left over after buying the present
- I can make a single layer cake.
+ I can make a single layer cake. */
 
- */
+if(money - costPresent >= layerCost * 3){
 
-if(moneyAvail - costPresent >= (cakeMixPrice + eggsPrice + oilPrice + frostingPrice) * 3){
+    console.log("You can make the 3-layered cake and buy the present!");
 
-    alert("You can make the 3-layered cake and buy the present!");
+}else if(money - costPresent  >= layerCost * 2){
 
-}else if(moneyAvail - costPresent >= (cakeMixPrice + eggsPrice + oilPrice + frostingPrice) * 2){
+    console.log("You can only make a double-layered cake to afford the present!");
 
-    alert("You can only make a double-layered cake to afford the present!");
+}else if(money - costPresent  >= layerCost){
 
-}else if (moneyAvail - costPresent >= cakeMixPrice + eggsPrice + oilPrice + frostingPrice){
-
-    alert("You can only make a single-layered cake to afford the present!");
+    console.log("You can only make a single-layered cake to afford the present!");
 
 }else{
-    alert("You have to chose between making the cake and buying the present!");
+    console.log("You have to chose between making the cake and buying the present!");
 
 }
 
