@@ -19,7 +19,7 @@ var timeMovie= prompt("What time is the movie?");
 var customerAge= prompt("What age is the customer?");
 
 
-if(5 >= timeMovie >= 3 || customerAge <= 55 || customerAge >= 10){
+if(5 >= timeMovie >= 3 || 55 >= customerAge >= 10){
     console.log("The ticket price is $7.00");
 }else{
     console.log("The ticket price is $12.00");
