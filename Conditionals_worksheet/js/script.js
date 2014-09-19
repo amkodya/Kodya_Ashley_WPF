@@ -15,23 +15,14 @@
 
  Commit your work to your GitHub.com repository. */
 
-var grade = 84;
+var timeMovie= prompt("What time is the movie?");
+var customerAge= prompt("What age is the customer?");
 
-if(grade >= 90){
-    console.log("You have a "+ grade +"%, which means you have earned an A in the class");
-}else if(grade >= 80){
 
-    console.log("You have a "+ grade +"%, which means you have earned a B in the class");
-
-}else if(grade >= 70){
-    console.log("You have a "+ grade +"%, which means you have earned a C in the class");
-
-}else if(grade >= 65){
-    console.log("You have a "+ grade +"%, which means you have earned a D in the class");
-
+if(5 >= timeMovie >= 3 || customerAge <= 55 || customerAge >= 10){
+    console.log("The ticket price is $7.00");
 }else{
-    console.log("You have a " + grade + "%, which means you have earned an F in the class");
-
+    console.log("The ticket price is $12.00");
 }
 
 
