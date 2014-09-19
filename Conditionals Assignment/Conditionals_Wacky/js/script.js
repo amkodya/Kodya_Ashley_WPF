@@ -1,37 +1,23 @@
 //Conditionals Wacky
 
-/* Movie Ticket Price
- The local movie theater in town has a ticket price of $12.00
- but if you are a senior (55 and older), under 10 you get the discounted price of $7.00.
- In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
- Determine which of the two prices the customer is eligible for.
+/* A dog baseball team called "The Boxers" are gearing up the face their rivals, a cat team named "The Maincoons".
+In order for this game to take place, there are many variables to this baseball game since both teams require certain aspects.
+The temperature has to be between a range in order to keep all the animals safe. Also, the cats are afraid of
+water so the game cannot be played if raining. As long as these conditions are met, the game will go on.
+*/
 
- Given:
- Time of Movie (Assume whole numbers here)
- Age of the customer
- Result To Print Out:
- “The ticket price is X”
- Deliverables
 
- Commit your work to your GitHub.com repository. */
 
-var grade = 84;
+var temperature = prompt("What is the current temperature") ;
+var raining = prompt("Is it raining?") ;
 
-if(grade >= 90){
-    console.log("You have a "+ grade +"%, which means you have earned an A in the class");
-}else if(grade >= 80){
 
-    console.log("You have a "+ grade +"%, which means you have earned a B in the class");
 
-}else if(grade >= 70){
-    console.log("You have a "+ grade +"%, which means you have earned a C in the class");
 
-}else if(grade >= 65){
-    console.log("You have a "+ grade +"%, which means you have earned a D in the class");
-
+if( raining = false && 75 >= temperature >= 40){
+    console.log("The baseball game between the dogs and cats can be played!");
 }else{
-    console.log("You have a " + grade + "%, which means you have earned an F in the class");
-
+    console.log("The game between the dogs and cats must be postponed");
 }
 
 
