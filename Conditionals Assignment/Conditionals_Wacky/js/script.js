@@ -1,23 +1,25 @@
 //Conditionals Wacky
 
-/* A dog baseball team called "The Boxers" are gearing up the face their rivals, a cat team named "The Maincoons".
-In order for this game to take place, there are many variables to this baseball game since both teams require certain aspects.
-The temperature has to be between a range in order to keep all the animals safe. Also, the cats are afraid of
-water so the game cannot be played if raining. As long as these conditions are met, the game will go on.
+/* A dog couple wants to adopt a human but the adoption agency requires the any dog wishing to adopt
+a human to pay a fee. The couple wants to make sure they have enough money for the adoption fee, human food and a human bed.
+The dog couple will only adopt the human if they can also afford the human bed and human food. Based on how much
+money they dog couple has, will they be able to adopt the human?
 */
 
 
+var moneyAdopt = prompt("How much money does the couple have to spend on their new human?") //money couple has for adoption
+var costAdoption = prompt("What is the cost to adopt the human?") ; // cost to adopt the human
+var costFood = prompt("What is the cost for one week of human food?"); // cost for 1 week fo food for the human
+var costBed = prompt("What is the cost for a human bed?"); // cost for one human bed
 
-var temperature = prompt("What is the current temperature") ;
-var raining = prompt("Is it raining?") ;
 
+/* the couple needs to have more money than the adoption cost of human and also enough money left over
+ from adoption cost for cost of human food and bed or else they will not adopt human*/
 
-
-
-if( raining = false && 75 >= temperature >= 40){
-    console.log("The baseball game between the dogs and cats can be played!");
+if(moneyAdopt > costAdoption && moneyAdopt - costAdoption >=  costFood + costBed){
+    console.log("The dog couple will be able to adopt the human!");
 }else{
-    console.log("The game between the dogs and cats must be postponed");
+    console.log("The dog couple will not be able to adopt the human right now!");
 }
 
 
