@@ -1,14 +1,17 @@
-//Functions Screencast - Returning Values
+//Functions Screencast - Procedures
 
 /* function functionName( ){
     //code the function runs
 } */
 
-var total = calcArea(30, 20);
-
-function calcArea(w, h){
-   var area = w * h;
-   return area; //function spitting the info out
+//this is a function
+function calcAreaF(width, height){
+    var area = width * height;
+    return area;
 }
-console.log(total);
 
+//this is a procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area); //no return
+}
