@@ -1,15 +1,13 @@
-//Functions Screencast - Variable Scope
+//Functions Screencast - Arguments and Parameters
 
 /* function functionName( ){
     //code the function runs
 } */
 
-var width = 5;
+calcArea(30, 20);
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
+function calcArea(w, h){ //w=30 h=20
+    var area = w * h;
     console.log(area);
 }
 
