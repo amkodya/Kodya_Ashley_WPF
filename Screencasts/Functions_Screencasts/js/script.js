@@ -1,12 +1,10 @@
-//Functions Screencasts
+//Functions Screencast - Variable Scope
 
 /* function functionName( ){
     //code the function runs
 } */
 
-function outptMsg(){
-    console.log("hello World")
-}
+var width = 5;
 
 function calcArea(){
     var width = 20;
@@ -14,3 +12,7 @@ function calcArea(){
     var area = width * height;
     console.log(area);
 }
+
+calcArea();
+calcArea();
+calcArea();
