@@ -11,25 +11,26 @@ console.log(“The Area of the Rectangle is “ + area);
 function calculateArea(w, h )
 {return w *h;}
 
- It takes 8.666666667 bee stings per pound to kill an animal.
- Calculate how many bee stings are needed to kill an animal in a function
+ Circumference
 
- Given:
- Victim’s weight (in pounds)
+ Calculate the circumference of a circle.
+
  Parameter(s) for function:
- Victim’s weight (in pounds)
+ Radius of the circle
  Return:
- Number of Bee stings
+ Circumference of the circle
  Result to print to the console:
- “It takes X bee stings to kill this animal.
+ “The circumference of the circle is X”;
+
 */
 
-var calcKill = function(victimWeight){
-    var killStings = victimWeight * 8.666666667;
-    return killStings;
+var calcCirc = function(radius){
+    var diameter = radius * 2;
+    var equation = diameter * 3.14159265359;
+    return equation;
 }
 
-var kill = calcKill(250);
+var c = calcCirc(250);
 
-console.log(kill);
+console.log(c);
 
