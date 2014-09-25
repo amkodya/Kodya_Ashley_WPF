@@ -30,7 +30,7 @@ var calcCirc = function(radius){
     return equation;
 }
 
-var c = calcCirc(250);
+var c = calcCirc(4);
 
 console.log(c);
 
