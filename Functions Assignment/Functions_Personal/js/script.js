@@ -16,9 +16,10 @@ deep end height
 var calcGals = function(shallow, deep, length, width){
     var height = (shallow * deep)/2;
     var volume = height * length * width;
+    var gals = 7.48 * volume;
     return volume;
 }
 
-var c = calcCirc(4);
+var gals = calcCirc(4);
 
 console.log(c);
