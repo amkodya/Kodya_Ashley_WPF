@@ -20,6 +20,6 @@ var calcGals = function(shallow, deep, length, width){
     return gals;
 }
 
-var galsPool = calcGals(3, 8, 20, 40);
+var galsPool = calcGals(4, 10, 50, 75);
 
 console.log("Your pool has " + galsPool + " gallons of water!");
