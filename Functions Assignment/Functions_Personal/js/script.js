@@ -14,12 +14,12 @@ deep end height
  */
 
 var calcGals = function(shallow, deep, length, width){
-    var height = (shallow * deep)/2;
+    var height = (shallow + deep)/2;
     var volume = height * length * width;
     var gals = 7.48 * volume;
     return gals;
 }
 
-var galsPool = calcCirc(3, 8, 20, 40);
+var galsPool = calcGals(3, 8, 20, 40);
 
 console.log("Your pool has " + galsPool + " gallons of water!");
