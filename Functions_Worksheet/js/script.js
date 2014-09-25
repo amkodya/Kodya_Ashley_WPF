@@ -29,7 +29,7 @@ var calcKill = function(victimWeight){
     return killStings;
 }
 
-var kill = calcKill(105);
+var kill = calcKill(250);
 
 console.log(kill);
 
