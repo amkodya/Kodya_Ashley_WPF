@@ -19,7 +19,7 @@ var calcJob = function(extra, current, sleep, personal){
     return hours;
 }
 
-var hoursTotal = calcJob(4, 10, 7, 2);
+var hoursTotal = calcJob(2, 8, 7, 2);
 
 if(hoursTotal > 24){
     console.log("You won't be able to take on the new design campaign and still maintain your current schedule!");
