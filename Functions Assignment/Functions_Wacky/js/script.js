@@ -6,27 +6,25 @@ where they are going to land. They need to land on dry land not water that is la
 Also the aliens have heat sensor technology on their ship to tell if humans are nearby
 The aliens need to make sure there are no humans where they are landing that will approach them in fear
 as they are coming to Earth in peace and research.
+Please calculate if the aliens can land in the given spot to have a safe landing
 
  The givens are the
  How long is spaceship
+ How wide is the spaceship
+ How long is the land
+ How wide is the land
  Are there are humans around?
 
  */
 
 
-var calcJob = function(extra, current, sleep, personal){
-    var hoursWorked = extra + current + sleep + personal;
-    return hoursWorked;
+var calcLanding = function(lspaceship, wspaceship, lland, wland); var calcHumans = function(humans){
+    var spaceshipArea = lspaceship * wspaceship;
+    var landArea = lland * wland;
+    var landSafe = spaceshipArea - landArea;
+    return landSafe;
 }
 
-var hoursTotal = calcJob(2, 8, 7, 2);
-
-if(hoursTotal > 24){
-    console.log("You won't be able to take on the new design campaign and still maintain your current schedule!");
-}else if(hoursTotal === 24){
-    console.log("You need to stay to a strict schedule in order to take on this new design campaign and maintain your current schedule!");
-}else{
-    console.log("You have time in your schedule to take on the new design campaign!");
-}
-
+var landingSafe = calcJob(2, 8, 7, 2);
+var humansAround = calcHumans(0)
 
