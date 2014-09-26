@@ -21,5 +21,12 @@ var calcJob = function(extra, current, sleep, personal){
 
 var hoursTotal = calcJob(4, 10, 50, 75);
 
+if(hoursTotal < 24){
+    console.log("You won't be able to take on the new design campaign and still maintain your current schedule!");
+}else if(hoursTotal = 24){
+    console.log("You need to stay to a strict schedule in order to take on this new design campaign and maintain your current schedule!");
+}else{
+    console.log("You have time in your schedule to take on the new design campaign!");
+}
 
 
