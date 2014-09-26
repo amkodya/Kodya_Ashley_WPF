@@ -19,4 +19,7 @@ var calcJob = function(extra, current, sleep, personal){
     return hours;
 }
 
+var hoursTotal = calcJob(4, 10, 50, 75);
+
+
 
