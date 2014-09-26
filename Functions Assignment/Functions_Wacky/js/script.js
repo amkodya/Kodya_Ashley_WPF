@@ -14,4 +14,19 @@ as they are coming to Earth in peace and research.
  */
 
 
+var calcJob = function(extra, current, sleep, personal){
+    var hoursWorked = extra + current + sleep + personal;
+    return hoursWorked;
+}
+
+var hoursTotal = calcJob(2, 8, 7, 2);
+
+if(hoursTotal > 24){
+    console.log("You won't be able to take on the new design campaign and still maintain your current schedule!");
+}else if(hoursTotal === 24){
+    console.log("You need to stay to a strict schedule in order to take on this new design campaign and maintain your current schedule!");
+}else{
+    console.log("You have time in your schedule to take on the new design campaign!");
+}
+
 
