@@ -18,13 +18,19 @@ Please calculate if the aliens can land in the given spot to have a safe landing
  */
 
 
-var calcLanding = function(lspaceship, wspaceship, lland, wland); var calcHumans = function(humans){
+var calcSpaceship = function(lspaceship, wspaceship); var calcLand = function(lland, wland); var calcHumans = function(humans){
     var spaceshipArea = lspaceship * wspaceship;
     var landArea = lland * wland;
     var landSafe = spaceshipArea - landArea;
     return landSafe;
 }
 
-var landingSafe = calcJob(2, 8, 7, 2);
-var humansAround = calcHumans(0)
+var spaceArea = calcSpaceship(2, 8);
+var landingArea = calcLand(2, 2);
+var humansAround = calcHumans(0);
+
+
+if(spaceArea - landingArea >=0 && humansAround === 0) ? console.log("The aliens can land here") : console.log("The aliens cannot land here");
+
+
 
