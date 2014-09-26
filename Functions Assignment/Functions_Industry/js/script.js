@@ -14,5 +14,9 @@
 
  */
 
+var calcJob = function(extra, current, sleep, personal){
+    var hours = extra + current + sleep + personal;
+    return hours;
+}
 
 
