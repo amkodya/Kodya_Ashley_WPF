@@ -38,7 +38,5 @@ var landingArea = calcLand(5, 10);
 var humansAround = calcHumans(0);
 
 
-(spaceArea - landingArea >=0 && humansAround === 0) ? console.log("The aliens can land here") : console.log("The aliens cannot land here");
-
 
 
